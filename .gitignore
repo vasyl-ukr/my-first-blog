@@ -1,7 +1,17 @@
+# Python
 *.pyc
+*~
 __pycache__
-myvenv
+
+# Env
+.env
+myvenv/
+venv/
+
+# Database
 db.sqlite3
-/static
-.DS_Store
+
+# Static folder at project root
+/static/
+
 .idea
